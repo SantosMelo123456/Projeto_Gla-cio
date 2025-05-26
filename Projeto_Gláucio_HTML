@@ -47,23 +47,23 @@
         </div>
       </div>
     
-    </body>
+ 
     </head>
 
     
 
-          <p></p>
+          
         </div>
-      </div>
+      
 
 
 
 
 
 <img src="barcoprincipal.jpeg" alt="barcoprincipal">
-<p></p>
 
-<p></p>
+
+
 <style>
     .caixinha {
       background-color: #1BB4E8;
@@ -83,7 +83,7 @@
     }
   </style>
 </head>
-<body>
+
 
   <div class="caixinha">
     <img src="destino.png" alt="Destino">
@@ -96,26 +96,28 @@
 
 
 <h5>Clique aqui para editar o seu texto e me editar. É facil, basta
-<p></p>
+
 clicar em editar texto, ou clicar duas vezes sobre mim e poderá mudar 
-<p></p> 
+
 o seu próprio  texto e mudar fontes. Sou um ótimo lugar para contar sua 
-<p></p>
+
 história e permitir que seus visitantes saibam um pouco sobre vc.</h5>
 
 <img src="barcodestino.jpg" alt="destino">
-<p></p>
 
-<p></p>
+
+
 
 <h3>Nossa frota</h3>
+<p>
 <h5>Clique aqui para editar o seu texto e me editar. É facil, basta
-<p></p>
+
 clicar em editar texto, ou clicar duas vezes sobre mim e poderá mudar 
-<p></p> 
+ 
 o seu próprio  texto e mudar fontes. Sou um ótimo lugar para contar sua 
-<p></p>
+
 história e permitir que seus visitantes saibam um pouco sobre vc.</h5>
+</p>
 <img src="barconossafrota2.jpg" alt="destino"><img src="barconossafrota1.jpg" alt="nossa frota">
-<p></p>
+
 <img src="barconossafrota1.jpg" alt="nossa frota"><img src="barconossafrota2.jpg" alt="destino">
