@@ -7,18 +7,13 @@
     --marrom-quadro: #C6B07F;
 }
 
-/* 
-o :root declara as variáveis para usar as cores
-de forma mais fácil, chamando a variável:
 
-var(--body-fundo)
-*/
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid firebrick; */
+    
 }
 
 body {
@@ -36,33 +31,32 @@ body {
 #topo {
     background-color: #21272B;
     position: relative;
-    display: inline-block;
     position: relative;
+    display: inline-block;
     padding-left: 15px;
-    padding-top: 10px;
-    width: 100%;
+    padding-top: 35px;
+    padding-bottom:14px;
     height: 100%;
+    width: 100%;
 }
 
 
 
 
-/* estilo.css */
 h1 {
   color:#1bb4e8;
 }
 
-/* estilo.css */
+
 
 .link-principal {
-  color: teal; /* você pode trocar por qualquer cor */
-  text-decoration: none; /* se quiser tirar o sublinhado */
+  color: teal; 
+  text-decoration: none; 
 }
 
 .link-principal:hover {
-  color:#1bb4e8; /* muda a cor quando o mouse passa por cima */
+  color:#1bb4e8; 
 }
-
 
 
 
@@ -92,29 +86,24 @@ p {
     bottom: 28px;
 }
 
-#barco1 {
-    
-
-
-}
-
-
-
-
 
 
 #logo {
     position:relative;
     font-size:27px;
     bottom:16px;
+    font-weight: 400;
 }
+
 
 #sublogo {
     position:relative;
+    font-family:sans-serif;
     right:60px;
     font-size:27px;
     top: 10px;
-
+    font-weight: 400;
+    
 
 
 }
@@ -124,8 +113,8 @@ p {
 nav {
     position: relative;
     display: inline-block;
-    left: 20px;
     color: #FFFFFF;
+    left: 20px;
 }
 
 ul {
@@ -134,11 +123,10 @@ ul {
     display: inline-block   
     padding: 0;
     margin: 0;
+     left:8px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    left:8px;
+   
     
-    
-
 }
 
 li {
@@ -148,6 +136,8 @@ li {
     font-size:12px;
 
 }
+
+
 
 a {
     text-decoration: none;
@@ -185,7 +175,6 @@ a:hover {
 .logo-container,
 .menu {
     background-color: #1a1a1a;
-    /* fundo escuro */
     padding: 10px 10px;
     display: flex;
     align-items: center;
@@ -262,11 +251,6 @@ footer {
 
 
 
-
-
-
-
-
 .links {
     display: flex;
     flex-flow: row wrap;
@@ -280,14 +264,17 @@ footer {
     font-size: 0.85em;
 }
 
+
 .pagina-atual {
     color: var(--azul-menu);
 }
+
 
 .logo-container img {
     height: 57px;
     margin-right: 10px;
 }
+
 
 .logo-text {
     color: white;
@@ -295,20 +282,25 @@ footer {
     font-size: 1.3em;
 }
 
+
+
 .logo-text .luxo {
     color: var(--azul-menu);
     font-style: italic;
     display: block;
 }
 
+
 .logo-text .aluguel {
     font-style: italic;
 }
+
 
 .principal {
     color: white;
     position: relative;
 }
+
 
 .principal .caixa-imagem {
     background: var(--quadro-fundo);
@@ -317,7 +309,6 @@ footer {
     font-size: 1.1rem;
     display: flex;
     flex-flow: column wrap;
-    /* flex-flow é um atalho pra juntar o flex-direction e flex-wrap */
     gap: 20px;
     opacity: 95%;
     position: absolute;
@@ -325,18 +316,22 @@ footer {
     right: 70px;
 }
 
+
 .principal .caixa-imagem h2 {
     font-weight: 500;
 }
+
 
 .principal .caixa-imagem .segunda-frase p {
     font-weight: 300;
 }
 
+
 .principal .caixa-imagem .segunda-frase .numero {
     color: var(--marrom-quadro);
     font-size: 1.2em;
 }
+
 
 .principal .caixa-imagem .segunda-frase {
     display: flex;
@@ -344,22 +339,22 @@ footer {
     align-items: center;
 }
 
+
 .principal .caixa-imagem .segunda-frase img {
     width: auto;
     height: 35px;
 }
 
+
 #conjunto_tabela {
     color: black;
     display: grid;
-    /* grid transforma a div em uma grade */
     grid-template-columns: 1fr 1fr;
-    /* grid-template-columns: grade em forma de colunas */
-    /* 1fr 1fr: separa dois fragmentos da grade iguais (como são apenas dois, ambos ocupam metade do espaço) */
     padding: 20px;
     gap: 20px;
     margin: 0 auto;
 }
+
 
 .caixinha {
     display: flex;
@@ -371,19 +366,21 @@ footer {
     gap: 10px;
 }
 
+
 .caixinha h2 {
     font-weight: 300;
     font-size: 1.7em;
 }
 
+
 .caixinha img {
     margin: auto 5px;
 }
 
+
 .caixinha_2 {
     background-color: #c6b07f;
 }
-
 
 
 .destino,
@@ -418,6 +415,8 @@ footer {
 .rodape p {
     font-style: normal;
 }
+
+
 .white {
     color:white
 
