@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxo:_Aluguel_de_Iates</title> #TITLE É A TAG QUE FAZ APARECER O TITULO DO DOCUMENTO DO DOCUMENTO
+
+    <link rel="stylesheet" href="style.css"> #ATRAVÉS DESSE LINK, O CSS ACABA DE SER INSERIDO
+
+  <style> #BLOCO DE CSS INTERNO QUE DEFINE A COR AZUL PARA OS LINKS COM ESSA CLASSE
+    .link-azul {
+      color: #1BB4E8;
+    }
+  </style>
+
+</head>
+<body>
+    <header> #INÍCIO DO CABEÇALHO DA PÁGINA 
+    
+    <div id="geral"> #DIV GERAL PARA CONTER TODA A ESTRUTURA PRINCIPAL
+
+        <!-- Topo -->
+        <div id="topo"> #ÁREA DO TOPO DO SITE
+
+            <div id="logo"> # DIV QUE CONTÉM O LOGO E OS TEXTOS DO TOPO
+                <img id="barco1"src="imagens/barco1.png" alt="barco1">
+                <h1 id="logo">Luxo</h1>
+                <h2 id="sublogo"style="color:white;">Aluguel de Iates</h2>
+           
+           
+                        <li><a href="#" class="link-azul">PÁGINA INICIAL</a></li>
+                         <li>|</li>
+                        <li><a href="Luxo_AL.html">ALUGUEL DE IATES</a></li>
+                         <li>|</li>
+                        <li><a href="Luxo_DT.html">DESTINOS</a></li>
+                         <li>|</li>
+                        <li><a href="Luxo_CT.html">TRIPULAÇÃO</a></li>
+                         <li>|</li>
+                        <li><a href="Luxo_TR.html">CONTATO</a></li>
+                </div>
+            <main> #INÍCIO DA ÁREA PRINCIPAL DO CONTEÚDO
+
+        <!-- Imagem_Barco_principal-->
+        </div>
+        
+        <div class="imagem-barco-principal">
+            <img src="imagens/barcoprincipal.jpg" alt="barcoprincipal">
+            <div id="Quadro_sonho">
+
+            </div>
+        </div>
+        
+        <div id="select">
+            <h2 class="white">Você só encontra coisas boas,<br> se combinar luxo e paixão.</h2>
+            <div id="select2">
+
+                <!-- Tabela sobre a Imagen -->
+
+                <img src="imagens/barco2.png" alt="">
+                <h4 class="white">Ligue agora para agendar as férias<br> de sua vida: </h4>
+    
+                <h4 id="select3" class="brown">(00)8000-0000</h4>
+            </div>
+        </div>
+        
+        
+         <!-- Começo das tabelas -->
+
+        <div id="conjunto_tabela"> #DIV QUE AGRUPA AS DUAS TABELAS
+
+            <!-- Primeira tabela -->
+            <div class="destino tabela"> #BLOCO SOBRE DESTINOS
+           
+                <div class="caixinha"> #DECORAÇÃO DO BLOCO
+                    <div id="quadro_azul"></div>
+                    <img src="imagens/destino.png" alt="">
+                     <h3 class="white">Destinos</h3> #TÍTULO DO BLOCO
+                </div>
+                <p id="Paragrafo_Título">Sou um título. Clique aqui para me editar.</p>
+                <p id="Texto_destinos">Clique aqui para adicionar o seu texto e me editar.É facil Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e poderá adicionar o seu próprio conteúdo ou mudar fontes. Sou um ótimo lugar para a sua história e permitir que seus visitantes saibam um pouco mais sobre você.</p>
+                <img src="imagens/barcodestino.jpg" alt="barco_destino">
+            </div>
+            <!-- Segunda Tabela -->
+            <div class="nossa-frota tabela">
+
+                <div class="caixinha caixinha_2">
+                    
+                    <img src="imagens/nossafrota.png" alt="">
+                    <h3 class="white">Nossa Frota</h3>
+                </div>
+                <p id="Paragrafo_Título">Sou um título. Clique aqui para me editar.</p>
+                <p id="Texto_destinos">Clique aqui para adicionar o seu texto e me editar.É facil Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e poderá adicionar o seu próprio conteúdo ou mudar fontes. Sou um ótimo lugar para a sua história e permitir que seus visitantes saibam um pouco mais sobre você.</p>
+                
+                <div class="imagens-nossafrota"> #DIV QUE AGRUPA IMAGENS DA FROTA
+                    <img class="asd" src="imagens/barconossafrota2.jpg" alt="barco_nossafrota2">
+                    <img class="asd" src="imagens/barconossafrota1.jpg" alt="barco_nossarota1">
+                    <img class="asd" src="imagens/barconossafrota2.jpg" alt="barco_nossarota2">
+                    <img class="asd" src="imagens/barconossafrota1.jpg" alt="barco_nossafrota1">
+                </div>
+            </div>
+        </div>
+        <!-- Coisa de baixo -->
+         <footer> #RODAPÉ DO SITE 
+        <small id="rodape">
+            @ 2023 por Luxo aluguel de iates.
+        </small>
+    </footer>
+    </div>
+
+</body>
+</html>
